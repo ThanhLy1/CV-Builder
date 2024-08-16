@@ -33,32 +33,39 @@
   - [ ] Implement user authentication and account management.
   - [ ] Allow users to save and retrieve their CVs from the backend.
 
-## Phase 6: Export and Sharing Features
-- **Week 7:**
+## Phase 6: OpenAI Integration
+- **Week 7-8:**
+  - [ ] Integrate OpenAI API to provide AI-driven suggestions for CV content.
+  - [ ] Implement features like auto-completing sections, generating bullet points for experience, or suggesting improvements.
+  - [ ] Allow users to interact with the AI for personalized advice and feedback.
+  - [ ] Ensure the AI-driven features are seamlessly integrated with the existing UI.
+
+## Phase 7: Export and Sharing Features
+- **Week 9:**
   - [ ] Implement PDF/Word export functionality using `react-pdf` or a similar library.
   - [ ] Allow users to share their CVs via a public link or email.
   - [ ] Implement version control for CVs, allowing users to save multiple versions.
 
-## Phase 7: Testing and Accessibility
-- **Week 8:**
-  - [ ] Write unit tests for all components.
+## Phase 8: Testing and Accessibility
+- **Week 10:**
+  - [ ] Write unit tests for all components, including AI-driven features.
   - [ ] Implement integration tests for key user flows.
   - [ ] Ensure the application is accessible, supporting screen readers and keyboard navigation.
 
-## Phase 8: Deployment and Optimization
-- **Week 9:**
+## Phase 9: Deployment and Optimization
+- **Week 11:**
   - [ ] Optimize the application for performance.
   - [ ] Set up CI/CD pipelines for automated testing and deployment.
   - [ ] Deploy the application on Vercel or a similar platform.
   - [ ] Monitor and fix any deployment issues.
 
-## Phase 9: Post-Launch
-- **Week 10:**
+## Phase 10: Post-Launch
+- **Week 12:**
   - [ ] Collect user feedback and monitor analytics.
   - [ ] Plan and implement any necessary post-launch features or fixes.
   - [ ] Consider adding additional CV templates and customization options.
 
-## Phase 10: Documentation and Maintenance
+## Phase 11: Documentation and Maintenance
 - **Ongoing:**
   - [ ] Maintain and update project documentation.
   - [ ] Address any bugs or issues that arise post-launch.
