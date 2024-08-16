@@ -70,3 +70,56 @@
   - [ ] Maintain and update project documentation.
   - [ ] Address any bugs or issues that arise post-launch.
   - [ ] Plan for future updates and new features.
+ 
+
+
+# Tech Stack for Interactive CV Builder with OpenAI Integration
+
+## Frontend
+- **Next.js**: Core framework for building the interactive, server-rendered React application.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling and ensuring a responsive design.
+- **Framer Motion**: For adding animations and enhancing user experience.
+- **Formik + Yup**: For form handling and validation.
+- **React Query**: For data fetching and caching, particularly useful for managing interactions with backend API and OpenAI.
+- **Axios**: For making HTTP requests to your backend API and OpenAI API.
+
+## Backend
+- **Node.js**: JavaScript runtime for building backend services.
+- **Express.js**: Web framework for building the REST API that handles user authentication, CV data management, and OpenAI interactions.
+- **MongoDB**: NoSQL database for storing user data, CV templates, and saved CVs.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB, allowing interaction with the database using JavaScript objects.
+- **OpenAI API**: Provides AI-driven suggestions for building the CV.
+
+## Authentication
+- **NextAuth.js**: For handling user authentication and managing sessions.
+- **JWT (JSON Web Tokens)**: For securing API endpoints and managing user sessions.
+
+## Deployment and Hosting
+- **Vercel**: Hosting platform for the Next.js frontend, optimized for performance and scalability.
+- **Heroku**: Optional hosting platform for the Node.js/Express backend (depending on preference).
+- **MongoDB Atlas**: Cloud-hosted MongoDB, providing a scalable and secure database solution.
+
+## Testing
+- **Jest**: For unit and integration testing of React components and backend services.
+- **Cypress**: For end-to-end testing, ensuring the entire user flow works as expected.
+- **React Testing Library**: For testing React components with a focus on user interactions.
+
+## State Management
+- **React Context or Zustand**: For managing global state across the application.
+
+## Version Control
+- **Git**: For source code management and version control.
+- **GitHub/GitLab**: For hosting the code repository and managing collaboration.
+
+## CI/CD
+- **GitHub Actions**: For continuous integration and deployment pipelines, automating testing and deployment processes.
+
+## Analytics and Monitoring
+- **Google Analytics**: For tracking user interactions and behavior on the CV builder.
+- **Sentry**: For error tracking and monitoring the application in production.
+
+## Documentation
+- **Storybook**: For building and documenting UI components.
+- **Markdown**: For writing project documentation, README files, and contributing guidelines.
+
